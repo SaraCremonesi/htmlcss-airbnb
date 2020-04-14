@@ -20,6 +20,7 @@
   height: 100vh;
   background: no-repeat;
   background-size: cover;
+  background-position: center;
   margin-bottom: 20px;
 }
 
