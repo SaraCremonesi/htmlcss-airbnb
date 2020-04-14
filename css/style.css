@@ -1,0 +1,61 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* contenitore principale */
+.container {
+  width: 100%;
+  border: 1px solid black;
+  background-color: #fff;
+  padding: 20px;
+}
+
+/* caratteristiche blocchi */
+.box {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+/* margine fondo pagina */
+.box:last-child {
+  margin-bottom: 0;
+}
+
+/* immagini background */
+.milano {
+  background-image: url('../img/milano.jpg')
+}
+
+.roma {
+  background-image: url('../img/roma.jpg');
+}
+
+.napoli {
+  background-image: url('../img/napoli.jpg')
+}
+
+/* testo */
+.testo {
+  position: absolute;
+  font-family: 'Ruthie', cursive;
+  color: white;
+  font-size: 100px;
+    /* centratura */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* filtro */
+.filter {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+}
